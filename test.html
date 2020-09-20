@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <script src="https://cdn.staticfile.org/jquery/1.10.2/jquery.min.js"></script>
+  
+  <title>you are pig</title>
+</head>
+
+<body>
+  <h2>Head in javascript</h2>
+  <a href="https://zhuanlan.zhihu.com/p/54510444" target="_blank">Fuck A* <br /></a>
+
+  <button id="button_1">print number</button>
+  <button id="button_2">print date</button>
+  <button id="button_3">hide</button>
+  <button id="button_4">show</button>
+
+  <p id="demo">TEST <br /></p>
+
+  <script>
+    $(document).ready(function () {
+      $("#button_3").click(function () {
+        $("p").hide();
+      });
+    });
+
+    // this kind of code has the same effect.
+    // which is more simple
+    ///
+    $(function () {
+      $("#button_4").click(function () {
+        $("#demo").show();
+      })
+    });
+
+
+  </script>
+
+
+
+<script src="stl.js"></script>
+</body>
+
+</html>
